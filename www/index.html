@@ -2,6 +2,30 @@
 <html lang="en-US" dir="rtl" >
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script>
+  var app = {
+
+  // Application Constructor
+  initialize: function() {
+    this.bindEvents();
+  },
+
+  // Bind any events that are required.
+  // Usually you should subscribe on 'deviceready' event to know, when you can start calling cordova modules
+  bindEvents: function() {
+    document.addEventListener('deviceready', this.onDeviceReady, false);
+  },
+
+  // deviceready Event Handler
+  onDeviceReady: function() {
+    console.log('Device is ready for work');
+  }
+};
+
+app.initialize();
+  
+</script>
+
 </head>
 <body>
 <div>
