@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/plugins/cordova-hot-code-push-plugin/src/android/android.iml" filepath="$PROJECT_DIR$/plugins/cordova-hot-code-push-plugin/src/android/android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugins/cordova-hot-code-push-local-dev-addon/src/android/android1.iml" filepath="$PROJECT_DIR$/plugins/cordova-hot-code-push-local-dev-addon/src/android/android1.iml" />
+    </modules>
+  </component>
+</project>
